@@ -2,7 +2,7 @@ import { Box } from "@mui/system";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import CommentIcon from "@mui/icons-material/Comment";
 import ReplyOutlinedIcon from "@mui/icons-material/ReplyOutlined";
-import { formatter } from "../../../numberFormatter";
+import { formatter } from "../../../helpers/numberFormatter";
 import { videoSidebarStyles } from "./VideoSidebar.styles";
 
 const VideoSidebar = ({ likes, comments, shareCount }) => {

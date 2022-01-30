@@ -3,7 +3,7 @@ import { useParams } from "react-router";
 import { Container, Grid, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { makeStyles } from "@material-ui/core";
-import { getUserInfo, getUserFeed } from "../api";
+import { getUserInfo, getUserFeed } from "../api/user";
 import Preloader from "../components/Preloader";
 import UserInfo from "../components/User/UserInfo";
 import UserFeed from "../components/User/UserFeed";

@@ -12,7 +12,7 @@ import PeopleSharpIcon from "@mui/icons-material/PeopleSharp";
 import VideoCameraFrontIcon from "@mui/icons-material/VideoCameraFront";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import { userInfoStyles } from "./UserInfo.styles";
-import { formatter } from "../../../numberFormatter";
+import { formatter } from "../../../helpers/numberFormatter";
 import defaultAvatar from "../../../assets/images/defaultAvatar.png";
 
 const UserInfo = ({ info, stats }) => {
