@@ -3,7 +3,7 @@ import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import { userFeedStyles } from "./UserFeed.styles";
-import { formatter } from "../../../numberFormatter";
+import { formatter } from "../../../helpers/numberFormatter";
 
 const UserFeed = ({ feed }) => {
   const classes = userFeedStyles();
