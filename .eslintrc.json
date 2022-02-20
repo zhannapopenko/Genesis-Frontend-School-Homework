@@ -57,6 +57,8 @@
     "space-before-blocks": ["error", "always"],
     "prefer-template": "off",
     "prettier/prettier": "off",
-    "more/no-then": "warn"
+    "more/no-then": "warn",
+    "import/no-named-as-default": "off",
+    "consistent-return": "off"
   }
 }

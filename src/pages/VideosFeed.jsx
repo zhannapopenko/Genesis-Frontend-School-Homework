@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { Box } from "@mui/system";
-import { getTrendingFeed } from "../api/videosFeed";
+// import { getTrendingFeed } from "../api/videosFeed";
 import Video from "../components/VideoContainer/Video";
 import Preloader from "../components/Preloader";
+import getFeed from "../mockData/getFeeds.json";
 
 const VideosFeed = () => {
   const [error, setError] = useState(null);
@@ -12,8 +13,8 @@ const VideosFeed = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const feed = await getTrendingFeed();
-        setVideos(feed.data);
+       // const feed = await getTrendingFeed();
+        setVideos(getFeed);
       } catch (error) {
         setError(error);
       } finally {
