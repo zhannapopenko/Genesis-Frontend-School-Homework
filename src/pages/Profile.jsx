@@ -1,12 +1,14 @@
 import { useState, useEffect } from "react";
-import { useParams } from "react-router";
+// import { useParams } from "react-router";
+// import { getUserInfo, getUserFeed } from "../api/user";
 import { Container, Grid, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { makeStyles } from "@material-ui/core";
-import { getUserInfo, getUserFeed } from "../api/user";
 import Preloader from "../components/Preloader";
 import UserInfo from "../components/User/UserInfo";
 import UserFeed from "../components/User/UserFeed";
+import getFeed from "../mockData/getFeeds.json";
+import getUser from "../mockData/getUserInfo.json";
 
 const profileStyles = makeStyles(() => ({
   error: {
@@ -28,21 +30,19 @@ const profileStyles = makeStyles(() => ({
 }));
 
 const Profile = () => {
+  // const { username } = useParams();
   const classes = profileStyles();
-  const { username } = useParams();
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [info, setInfo] = useState(null);
   const [feed, setFeed] = useState([]);
 
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchFeed = async () => {
       try {
-        const feed = await getUserFeed();
-        const info = await getUserInfo(username);
-
-        setFeed(feed.data);
-        setInfo(info.data);
+        // const feed = await getUserFeed();
+        // setFeed(feed.data);
+        setFeed(getFeed);
       } catch (error) {
         setError(error);
       } finally {
@@ -50,8 +50,26 @@ const Profile = () => {
       }
     };
 
-    fetchData();
+    fetchFeed();
   }, []);
+
+
+  useEffect(() => {
+    const fetchInfo = async () => {
+      try {
+        // const info = await getUserInfo(username);
+        // setInfo(info.data);
+        setInfo(getUser);
+      } catch (error) {
+        setError(error);
+      } finally {
+        setIsLoaded(true);
+      }
+    };
+
+    fetchInfo();
+  }, []);
+
 
   if (error) {
     return <Box className={classes.error}>Error: {error.message}</Box>;

@@ -39,6 +39,7 @@ export const videoStyles = makeStyles((theme) => ({
     justifyContent: "center",
   },
   cardMedia: {
+    minHeight: "450px",
     display: "flex",
     flex: 3,
     padding: "0.5rem",
