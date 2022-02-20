@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/tik-tuk/static/css/main.cc7b9948.chunk.css",
-    "main.js": "/tik-tuk/static/js/main.4f9aabfa.chunk.js",
-    "main.js.map": "/tik-tuk/static/js/main.4f9aabfa.chunk.js.map",
-    "runtime-main.js": "/tik-tuk/static/js/runtime-main.356eb5cd.js",
-    "runtime-main.js.map": "/tik-tuk/static/js/runtime-main.356eb5cd.js.map",
-    "static/js/2.c46f5530.chunk.js": "/tik-tuk/static/js/2.c46f5530.chunk.js",
-    "static/js/2.c46f5530.chunk.js.map": "/tik-tuk/static/js/2.c46f5530.chunk.js.map",
-    "index.html": "/tik-tuk/index.html",
-    "static/css/main.cc7b9948.chunk.css.map": "/tik-tuk/static/css/main.cc7b9948.chunk.css.map",
-    "static/js/2.c46f5530.chunk.js.LICENSE.txt": "/tik-tuk/static/js/2.c46f5530.chunk.js.LICENSE.txt",
-    "static/media/defaultAvatar.724b79cd.png": "/tik-tuk/static/media/defaultAvatar.724b79cd.png",
-    "static/media/spinner.40810cf3.gif": "/tik-tuk/static/media/spinner.40810cf3.gif"
+    "main.css": "/Genesis-Frontend-School-Homework-1/static/css/main.cc7b9948.chunk.css",
+    "main.js": "/Genesis-Frontend-School-Homework-1/static/js/main.c574687e.chunk.js",
+    "main.js.map": "/Genesis-Frontend-School-Homework-1/static/js/main.c574687e.chunk.js.map",
+    "runtime-main.js": "/Genesis-Frontend-School-Homework-1/static/js/runtime-main.60daeae0.js",
+    "runtime-main.js.map": "/Genesis-Frontend-School-Homework-1/static/js/runtime-main.60daeae0.js.map",
+    "static/js/2.c46f5530.chunk.js": "/Genesis-Frontend-School-Homework-1/static/js/2.c46f5530.chunk.js",
+    "static/js/2.c46f5530.chunk.js.map": "/Genesis-Frontend-School-Homework-1/static/js/2.c46f5530.chunk.js.map",
+    "index.html": "/Genesis-Frontend-School-Homework-1/index.html",
+    "static/css/main.cc7b9948.chunk.css.map": "/Genesis-Frontend-School-Homework-1/static/css/main.cc7b9948.chunk.css.map",
+    "static/js/2.c46f5530.chunk.js.LICENSE.txt": "/Genesis-Frontend-School-Homework-1/static/js/2.c46f5530.chunk.js.LICENSE.txt",
+    "static/media/defaultAvatar.724b79cd.png": "/Genesis-Frontend-School-Homework-1/static/media/defaultAvatar.724b79cd.png",
+    "static/media/spinner.40810cf3.gif": "/Genesis-Frontend-School-Homework-1/static/media/spinner.40810cf3.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.356eb5cd.js",
+    "static/js/runtime-main.60daeae0.js",
     "static/js/2.c46f5530.chunk.js",
     "static/css/main.cc7b9948.chunk.css",
-    "static/js/main.4f9aabfa.chunk.js"
+    "static/js/main.c574687e.chunk.js"
   ]
 }
