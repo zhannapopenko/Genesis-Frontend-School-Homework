@@ -14,6 +14,7 @@ const headerStyles = makeStyles((theme) => ({
     color: "black",
     "&:hover": {
       color: "grey",
+      transition: "color .5s"
     },
     display: "flex",
     flex: 22,
@@ -41,7 +42,7 @@ const Header = () => {
         </Box>
         <Link to="/" className={classes.link}>
           <Typography variant="h5">
-            <b>Tik Tuk</b>
+            <b>TikTok</b>
           </Typography>
         </Link>
       </CardContent>
