@@ -13,6 +13,5 @@ The app has a home page with videos of different users. The app also has a user 
 
 ## To start this app:
 
-### `npm i`
-
-This will install the packages you need.
+### `npm i` - this will install the packages you need
+### `npm start` - this will start the project
