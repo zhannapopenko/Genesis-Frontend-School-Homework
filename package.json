@@ -2,7 +2,7 @@
   "name": "tik-tuk",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zhannapopenko.github.io/Genesis-Frontend-School-Homework-1/",
+  "homepage": "https://zhannapopenko.github.io/Genesis-Frontend-School-Homework/",
   "dependencies": {
     "@emotion/react": "^11.6.0",
     "@emotion/styled": "^11.6.0",
